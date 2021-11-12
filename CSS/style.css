@@ -10,6 +10,10 @@ body{
     background-color:#fbf4ec ;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 .flex{
     display: flex;
     position: relative;
