@@ -56,13 +56,13 @@ body{
 
 
 main{
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
 
 
 #box1{
-    margin: 100px;
+    margin: 50px;
     padding: 100px;
     height: 30px;
     width: 200px;
@@ -72,7 +72,7 @@ main{
 
 
 #box2{
-    margin: 100px;
+    margin: 50px;
     padding: 100px;
     height: 30px;
     width: 200px;
@@ -84,7 +84,7 @@ main{
 
 
 #box3{
-    margin: 100px;
+    margin: 50px;
     padding: 100px;
     height: 30px;
     width: 200px;
@@ -95,7 +95,7 @@ main{
 .wrapper{
     display: inline-grid;
     grid-template-columns: 33% 33% 33%;
-    margin-right: 250px;
+    margin-right: 300px;
     align-items: baseline;
     
 }
