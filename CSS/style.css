@@ -31,7 +31,6 @@ body{
 
 .flex .sidebar ul li a{
     color: black; 
-    display: inline-block;
 }
 
 
@@ -142,9 +141,8 @@ img {
 }
 
 .cancel{
-    float: right;
     background-color:#eb6f92 ;
-    margin: 0%;
+    width: 50px;
     padding: 0%;
 }
 
@@ -157,6 +155,11 @@ img {
     width: 250px;
 }
 
+
+.nameAndIcon div{
+    background-color: white;
+    width: 400px;
+}
 
 
 
