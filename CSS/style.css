@@ -17,6 +17,7 @@ a:link{
 .flex{
     display: flex;
     position: relative;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .flex .sidebar {
@@ -43,14 +44,6 @@ a:link{
 }
 
 
-.content {
-    width: 20em;
-    height: 20em;
-    padding: 10px;
-    margin: 10px;
-    background-color: #d1d1d1;
-}
-
 
 main{
     margin-left: 400px;
@@ -60,21 +53,19 @@ main{
 
 #box1{
     margin: 70px;
-    padding: 100px;
+    padding: 70px;
     height: 30px;
     width: 200px;
-    border: solid 1px #e0def4;
-    background-color: #555169;
+    background-color: #6e6a86;
 }
 
 
 #box2{
     margin: 70px;
-    padding: 100px;
+    padding: 70px;
     height: 30px;
     width: 200px;
-    border: solid 1px #e0def4;
-    background-color: #555169;
+    background-color: #6e6a86;
 }
 
 
@@ -82,35 +73,40 @@ main{
 
 #box3{
     margin: 70px;
-    padding: 100px;
+    padding: 70px;
     height: 30px;
     width: 200px;
-    border: solid 1px #e0def4;
-    background-color: #555169;
+    background-color: #6e6a86;
 }
 
 .wrapper{
     display: inline-grid;
     grid-template-columns: 33% 33% 33%;
     margin-right: 300px;
-    align-items: baseline;
-    
+    font-family: 'Exo 2', sans-serif;
 }
 
 
 
 img {
-    width: 100px;
-    height: 100px;
-    background-color: black;
+    width: 10%;
+    height: 20%;
+    background-color: #fbf4ec;
+
 }
 
+.package{
+    font-family: 'Exo 2', sans-serif;
+}
 
 .contact_name{
     width: 200px;
     height: 40px;
     margin-top: 10px;
     background-color: white;
+    border: solid;
+    border-color: #555169;
+    border-width: 2px;
 }
 
 
@@ -119,6 +115,9 @@ img {
     height: 40px;
     margin-top: 10px;
     background-color: white;
+    border: solid;
+    border-color: #555169;
+    border-width: 2px;
 }
 
 .contact_address{
@@ -126,6 +125,9 @@ img {
     height: 40px;
     margin-top: 10px;
     background-color: white;
+    border: solid;
+    border-color: #555169;
+    border-width: 2px;
 }
 
 
@@ -134,20 +136,22 @@ img {
     height: 40px;
     margin-top: 10px;
     background-color: white;
+    border: solid;
+    border-color: #555169;
+    border-width: 2px;
 }
 
 
 .save{
     float: left;
     background-color:#286983 ;
-    margin: 0%;
-    padding: 0%;
+    margin-top: 10px;
 }
 
 .cancel{
     background-color:#eb6f92 ;
     width: 50px;
-    padding: 0%;
+    margin-top: 10px;
 }
 
 .nameAndIcon h2{
@@ -157,13 +161,68 @@ img {
 .nameAndIcon {
     background-color: white;
     width: 250px;
+    margin-top: 15px;
+    border: solid;
+    border-color: #555169;
+    border-width: 2px;
+    font-family: 'Exo 2', sans-serif;
 }
+
 
 
 .nameAndIcon div{
     background-color: white;
-    width: 400px;
+}
+
+.writing{
+    background-color: white;
+    width: 250px;
+    margin-top: 30px;
+    border: solid;
+    border-color: #555169;
+    border-width: 2px;
+    font-family: 'Yuji Syuku', serif;
+
 }
 
 
 
+
+
+@media screen and (max-width: 600px){
+.flex .sidebar {
+    width: 100px;
+    height: 100%;
+    padding: 30px 0;
+    background-color: #d2e0e9;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 100px;
+    margin-right: 100px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.nameAndIcon{
+    margin-left: -200px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
