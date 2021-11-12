@@ -191,7 +191,7 @@ img {
 
 @media screen and (max-width: 600px){
 .flex .sidebar {
-    width: 100px;
+    width: 125px;
     height: 100%;
     padding: 30px 0;
     background-color: #d2e0e9;
@@ -210,19 +210,40 @@ img {
 
 
 .nameAndIcon{
-    margin-left: -200px;
     font-family: 'Yuji Syuku', serif;
+}
+
+
+main{
+    margin-left: 140px;
+}
+
+#box1{
+    margin: 20px;
+    padding: 20px;
+    height: 10px;
+    width: 70px;
+    background-color: #6e6a86;
+}
+
+
+#box2{
+    margin: 20px;
+    padding: 20px;
+    height: 10px;
+    width: 70px;
+    background-color: #6e6a86;
 }
 
 
 
 
-
-
-
-
-
-
-
+#box3{
+    margin: 20px;
+    padding: 20px;
+    height: 10px;
+    width: 70px;
+    background-color: #6e6a86;
+}
 
 }
