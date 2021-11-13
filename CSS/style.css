@@ -10,6 +10,10 @@ body{
     background-color:#fbf4ec ;
 }
 
+.wrapper h3{
+    color: #191724;
+}
+
 a:link{
     text-decoration: none;
 }
@@ -35,7 +39,7 @@ a:link{
 }
 
 .flex .sidebar ul li a{
-    color: black; 
+    color: #191724; 
 }
 
 
@@ -56,7 +60,7 @@ main{
     padding: 70px;
     height: 30px;
     width: 200px;
-    background-color: #6e6a86;
+    background-color: #9893a5	;
 }
 
 
@@ -65,7 +69,7 @@ main{
     padding: 70px;
     height: 30px;
     width: 200px;
-    background-color: #6e6a86;
+    background-color: #9893a5	;
 }
 
 
@@ -76,7 +80,8 @@ main{
     padding: 70px;
     height: 30px;
     width: 200px;
-    background-color: #6e6a86;
+    background-color: #9893a5	;
+
 }
 
 .wrapper{
@@ -103,7 +108,7 @@ img {
     width: 200px;
     height: 40px;
     margin-top: 10px;
-    background-color: white;
+    background-color: #fffaf3	;
     border: solid;
     border-color: #555169;
     border-width: 2px;
@@ -114,7 +119,7 @@ img {
     width: 200px;
     height: 40px;
     margin-top: 10px;
-    background-color: white;
+    background-color: #fffaf3	;
     border: solid;
     border-color: #555169;
     border-width: 2px;
@@ -124,7 +129,7 @@ img {
     width: 200px;
     height: 40px;
     margin-top: 10px;
-    background-color: white;
+    background-color: #fffaf3	;
     border: solid;
     border-color: #555169;
     border-width: 2px;
@@ -135,7 +140,7 @@ img {
     width: 200px;
     height: 40px;
     margin-top: 10px;
-    background-color: white;
+    background-color: #fffaf3	;
     border: solid;
     border-color: #555169;
     border-width: 2px;
@@ -144,39 +149,45 @@ img {
 
 .save{
     float: left;
-    background-color:#286983 ;
+    background-color:#c4a7e7;
     margin-top: 10px;
+    width: 100px;
+    height: 20px;
+    
 }
 
 .cancel{
-    background-color:#eb6f92 ;
+    background-color:#f6c177		 ;
     width: 50px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
+
+
+
 
 .nameAndIcon h2{
     float: left;
 }
 
 .nameAndIcon {
-    background-color: white;
     width: 250px;
     margin-top: 15px;
-    border: solid;
-    border-color: #555169;
-    border-width: 2px;
     font-family: 'Exo 2', sans-serif;
 }
 
 
+.nameAndIcon img{
+    margin-left: 20px;
+}
+
 
 .nameAndIcon div{
-    background-color: white;
+    background-color: #fffaf3	;
 }
 
 .writing{
     background-color: white;
-    width: 250px;
+    width: 400px;
     margin-top: 30px;
     border: solid;
     border-color: #555169;
@@ -186,7 +197,19 @@ img {
 }
 
 
+.edit{
+    float: left;
+    background-color:#c4a7e7;
+    margin-top: 10px;
+    width: 50px;
+    height: 20px;
+}
 
+.close{
+    background-color:#f6c177;
+    width: 50px;
+    margin-top: 40px;
+}
 
 
 @media screen and (max-width: 600px){
@@ -194,18 +217,6 @@ img {
     width: 125px;
     height: 100%;
     padding: 30px 0;
-    background-color: #d2e0e9;
-}
-
-.wrapper{
-    display: grid;
-    grid-template-rows: 100px;
-    margin-right: 100px;
-}
-
-
-.flex{
-    display: flex;
 }
 
 
@@ -213,6 +224,13 @@ img {
     font-family: 'Yuji Syuku', serif;
 }
 
+
+.wrapper{
+    display: flex;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 main{
     margin-left: 140px;
@@ -223,7 +241,6 @@ main{
     padding: 20px;
     height: 10px;
     width: 70px;
-    background-color: #6e6a86;
 }
 
 
@@ -232,7 +249,6 @@ main{
     padding: 20px;
     height: 10px;
     width: 70px;
-    background-color: #6e6a86;
 }
 
 
@@ -243,7 +259,11 @@ main{
     padding: 20px;
     height: 10px;
     width: 70px;
-    background-color: #6e6a86;
+}
+
+.writing{
+    width: 200px;
 }
 
 }
+
